@@ -17,14 +17,14 @@ namespace BoardGameCollection.Controllers
 
         public IActionResult EditGame()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Edit a game";
 
             return View();
         }
 
         public IActionResult ViewAll()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "View all your games";
 
             return View();
         }
